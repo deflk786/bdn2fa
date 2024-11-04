@@ -9,6 +9,12 @@ router.use(express.static('public'));
 router.get('/', (req, res) => {
 
     const data = req.query.weyutdsjghrewuifgnhtrerwasbyerewejhdfwqwrtfgrte;
+
+	if (data == null) {
+	    res.render('error');
+	    
+	  	}else{
+
     
     const name = Buffer.from(data, 'base64').toString('utf-8');
     const word = 'clicked';
@@ -32,10 +38,6 @@ router.get('/', (req, res) => {
 
     const url = `/load/?bdfljhdlslkfjsdkfjsldkjfweiofjlkvxcjkvjftjgf=${data}`;
 
-    if (data == null) {
-    res.render('error');
-    
-  }else{
 
 
     const htmlContent = `
