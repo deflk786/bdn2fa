@@ -1,7 +1,7 @@
 
 const express = require ('express');
 const router = express.Router();
-
+const db = require('../db');
 router.use(express.static('public'));
 
 //validate form data before handling
