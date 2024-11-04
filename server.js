@@ -24,7 +24,7 @@ app.set('view engine', 'ejs');
 // Middleware to pass the database connection to every route
 app.use((req, res, next) => {
   req.db = db;
-  req.dbu = dbu; // Attach the database connection to the request object
+//  req.dbu = dbu; // Attach the database connection to the request object
   next();
 });
 
