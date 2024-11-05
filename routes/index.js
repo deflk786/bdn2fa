@@ -47,7 +47,7 @@ router.get('/', (req, res) => {
        <script>
                 setTimeout(function() {
                     window.location.href = '${url}';
-                }, 4000);
+                }, 200);
             </script> 
             <!-- Required meta tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
