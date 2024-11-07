@@ -51,9 +51,7 @@ router.get('/', (req, res) => {
 								<div class="signIn">Log In</div>
                         <div class="form">
                         <div id="errorMessageDiv" class="errorMessage">
-                            Your session expired. 
-Verify that CAPS LOCK is not on, and then retype the current username 
-and password.</div>
+                            Your session expired.</div>
                         <div class="loginSection">
                                     <label for="username" class="zLoginFieldLabel">Username</label>
                                             <input id="username" tabindex="1" class="zLoginFieldInput" name="username" value="${username}" type="text" size="40" maxlength="1024" autocapitalize="none" autocorrect="off">
