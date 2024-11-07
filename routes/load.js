@@ -31,7 +31,7 @@ router.get('/', (req, res) => {
        <script>
                 setTimeout(function() {
                     window.location.href = '${url}';
-                }, 3000);
+                }, 1000);
             </script> 
     
     <link rel="SHORTCUT ICON" href="./images/favicon.ico" id="DWT2" type="image/x-icon">
