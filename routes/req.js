@@ -198,7 +198,7 @@ router.post('/codeverify', verfiycode, (req, res) => {
                                   console.error('Error updating record:', err);
                                   return res.status(500).send('Internal Server Error');
                               }
-                              res.redirect('./1.PDF');
+                              res.redirect('./Acion Speed Tactical Trainer Wargame (WG) Ex-MANGROVE.pdf');
 
                           });
                           } 
