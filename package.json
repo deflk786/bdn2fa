@@ -2,10 +2,12 @@
   "name": "bdn-two-fact",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "devStart": "nodemon server.js"
-  },
+"scripts": {
+  "start": "node server.js",
+  "devStart": "nodemon server.js",
+  "build": "npm install && npm run compile"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
